@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Opdracht LOI rekenmachine</title>
+    <link rel="stylesheet" href="Calculater.css" />
+  </head>
+  <body>
+    <!--button container-->
+    <div id="calculator">
+      <!--input field and readonly attribute-->
+      <input id="display" placeholder="Welcome Abdullah" readonly />
+      <div id="keys">
+        <div id="numbers">
+          <div onclick="appendToDisplay(7)">7</div>
+          <div onclick="appendToDisplay(8)">8</div>
+          <div onclick="appendToDisplay(9)">9</div>
+          <div onclick="appendToDisplay(4)">4</div>
+          <div onclick="appendToDisplay(5)">5</div>
+          <div onclick="appendToDisplay(6)">6</div>
+          <div onclick="appendToDisplay(1)">1</div>
+          <div onclick="appendToDisplay(2)">2</div>
+          <div onclick="appendToDisplay(3)">3</div>
+          <div onclick="appendToDisplay('.')">.</div>
+          <div onclick="appendToDisplay(0)">0</div>
+          <div onclick="calculate('=')">=</div>
+        </div>
+        <div id="operators">
+          <div onclick="clearDisplay('C')">C</div>
+          <div onclick="appendToDisplay('+')">+</div>
+          <div onclick="appendToDisplay('-')">-</div>
+          <div onclick="appendToDisplay('*')">x</div>
+          <div onclick="appendToDisplay('/')">/</div>
+          <div id="small" onclick="fun('')">;)</div>
+        </div>
+      </div>
+    </div>
+    <script src="Calculater.js"></script>
+  </body>
+</html>
