@@ -1,4 +1,4 @@
-// CALCULATOR PROGRAM
+// CALCULATOR PROGRAM FOR LOI
 
 /* Just for fun :) */
 function fun() {
